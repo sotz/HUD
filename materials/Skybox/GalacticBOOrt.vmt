@@ -1,7 +1,0 @@
-"UnlitGeneric"
-{
-    "$basetexture" "skybox/GalacticBOOrt"
-    "$hdrbasetexture" "skybox/GalacticBOOrt"
-    "$nofog" "1"
-    "$ignorez" "1"
-}
