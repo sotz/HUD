@@ -4,45 +4,44 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemNameLabel"
-		"font"			"CerbeticaBold12"
-			"fgcolor"		"0 255 0 255"
-		"xpos"			"15"
-		"ypos"			"2"
+		"font"			"Default"
+		"xpos"			"8"
+		"ypos"			"21"
 		"zpos"			"1"
-		"wide"			"70"
+		"wide"			"84"
 		"tall"			"15"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"#TF_Object_Tele_Exit_360"
-		"textAlignment"	"Center"
+		"labelText"		"#TF_Object_tele_exit_360"
+		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"fgcolor"		"0 255 0 255"
 	}
 	
 	"ItemBackground"	
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"ItemBackground"
-		"xpos"			"9999"
-		"ypos"			"9999"
+		"xpos"			"32"
+		"ypos"			"34"
 		"zpos"			"0"
-		"wide"			"98"
-		"tall"			"105"
+		"wide"			"38"
+		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_item_bg_outline"
-		"iconColor"		"ProgressOffWhiteTransparent"
+		"iconColor"		"0 0 0 255"
 	}
 	
 	"NotBuiltLabel"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NotBuiltLabel"
-		"font"			"CerbeticaBold20"
-			"fgcolor"		"0 255 0 255"
+		"font"			"SpectatorKeyHints"
 		"xpos"			"10"
 		"ypos"			"48"
 		"zpos"			"2"
@@ -56,14 +55,14 @@
 		"textAlignment"	"Center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-	}
+		"fgcolor"		"0 255 0 255"
+	}	
 
 	"UnavailableLabel"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"UnavailableLabel"
-		"font"			"CerbeticaBold20"
-			"fgcolor"		"0 255 0 255"
+		"font"			"SpectatorKeyHints"
 		"xpos"			"10"
 		"ypos"			"48"
 		"zpos"			"2"
@@ -77,14 +76,15 @@
 		"textAlignment"	"Center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-	}		
-		
+		"fgcolor"		"0 255 0 255"
+	}	
+			
 	"NumberBg"	
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"NumberBg"
-		"xpos"			"9999"
-		"ypos"			"9999"
+		"xpos"			"41"
+		"ypos"			"75"
 		"zpos"			"0"
 		"wide"			"18"
 		"tall"			"18"
@@ -92,17 +92,17 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_key_blank"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"0 255 0 128"
 	}
 	
 	"NumberLabel"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"CerbeticaBold20"
-		"fgcolor"		"0 255 0 255"
+		"font"			"HudMenuNumberFont"
+		"fgcolor"		"Black"
 		"xpos"			"0"
-		"ypos"			"95"
+		"ypos"			"75"
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"18"
@@ -114,26 +114,6 @@
 		"textAlignment"	"Center"
 		"dulltext"		"1"
 		"brighttext"	"0"
+		"fgcolor"		"0 255 0 255"
 	}
-	"NumberLabelShadow"
-	{	
-		"ControlName"	"CExLabel"
-		"fieldName"		"NumberLabel"
-		"font"			"CerbeticaBold20"
-		"fgcolor"		"TransparentBlack"
-		"xpos"			"1"
-		"ypos"			"96"
-		"zpos"			"1"
-		"wide"			"100"
-		"tall"			"18"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"4"
-		"textAlignment"	"Center"
-		"dulltext"		"1"
-		"brighttext"	"0"
-	}
-
 }

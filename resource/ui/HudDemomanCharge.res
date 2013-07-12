@@ -5,7 +5,7 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter"
 		"font"			"Tex12"
-		"xpos"			"10"
+		"xpos"			"17"
 		"ypos"			"112"
 		"zpos"			"2"
 		"wide"			"120"
@@ -24,7 +24,7 @@
 	{
 		"ControlName" 		"CExLabel"
 		"fieldName" 		"ChargeMeterLabel"
-		"xpos" 				"0"
+		"xpos" 				"5"
 		"ypos" 				"111"
 		"zpos" 				"3"
 		"wide" 				"150"

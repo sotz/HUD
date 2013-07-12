@@ -93,7 +93,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"CerbeticaBold28"
+		"font"					"Tex28"
 	}
 		"ItemEffectMeterCountBackground"
 	{
@@ -112,7 +112,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"CerbeticaBold28"
+		"font"					"Tex28"
 		"fgcolor"				"transparentblack"
 	}
 }

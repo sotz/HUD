@@ -73,6 +73,7 @@ Scheme
 			"ColorGreyLight"				"192 192 192 255"
 			"ColorWhite"					"255 255 255 255"
 		
+		"LowColor"		"255 85 0 255"
 		
 		"Black"			"0 0 0 255"
 		"Black2"		"0 0 0 150"

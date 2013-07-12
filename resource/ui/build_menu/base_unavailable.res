@@ -5,7 +5,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemNameLabel"
 		"font"			"Default"
-		"xpos"			"6"
+		"xpos"			"8"
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"84"
@@ -16,7 +16,7 @@
 		"enabled"		"1"
 		"labelText"		"#TF_Object_Sentry"
 		"labelText_lodef"		"#TF_Object_Sentry_360"
-		"textAlignment"	"Left"
+		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}

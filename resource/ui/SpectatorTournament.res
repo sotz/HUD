@@ -266,7 +266,7 @@
 				"visible"		"1"
 				"labelText"		"%respawntime%"
 				"textAlignment"	"east"
-				"fgcolor"		"255 20 175 255"
+				"fgcolor"		"ColorLime"
 				
 				if_mvm
 				{
