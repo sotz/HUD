@@ -197,5 +197,35 @@
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"1"	
-	}	
+	}
+	"ServerTimeLimitLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ServerTimeLimitLabel"
+		"labelText"		"%servertimeleft%"
+		"textAlignment"		"center"
+		"font"			"Tex18"
+		"fgcolor"			"White"
+		"xpos"			"-24"
+		"ypos"			"13"
+		"zpos"			"5"
+		"wide"			"150"
+		"tall"			"19"
+		"visible"		"1"
+		"enabled"		"1"
+	}
+	"ServerTimeLimitLabelBG"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"ServerTimeLimitLabelBG"
+		"xpos"			"0"	
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"../hud/objectives_timepanel_suddendeath"	
+		"scaleImage"		"1"	
+	}		
 }
