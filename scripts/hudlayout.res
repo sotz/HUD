@@ -334,8 +334,8 @@
 		"tall_hidef"	"212"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"fillcolor"		"255 255 255 255"
 		"alpha" "50"
 	}
@@ -355,8 +355,8 @@
 		"tall_hidef"	"212"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"fillcolor"		"255 255 255 255"
 		"alpha" "50"
 	}
@@ -376,8 +376,8 @@
 		"tall_hidef"	"212"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"fillcolor"		"255 255 255 255"
 		"alpha" "50"
 	}
@@ -397,8 +397,8 @@
 		"tall_hidef"	"212"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"fillcolor"		"255 255 255 255"
 		"alpha" "100"
 	}
@@ -417,8 +417,8 @@
 		"tall_hidef"	"212"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"fillcolor"		"255 255 255 255"
 		"alpha" "150"
 	}
@@ -437,8 +437,8 @@
 		"tall_hidef"	"212"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"fillcolor"		"255 255 255 255"
 		"alpha" "100"
 	}
@@ -459,8 +459,8 @@
 		"tall_hidef"	"212"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"fillcolor"		"255 255 255 255"
 		"alpha" "100"
 	}
@@ -721,7 +721,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos" 		"c-80"
-		"ypos" 		"285"
+		"ypos" 		"295"
 		"wide" 		"150"
 		"tall" 		"34"
 		"priority" 	"35"
@@ -1002,20 +1002,33 @@
 		"ItemFontPulsing"		"Default"
 
 	}
+	HudSpellMenu
+	{
+		"fieldName" "HudSpellMenu"
+		"visible" "1"
+		"enabled" "1"
+		"wide" "640"
+		"tall" "480"
+		"zpos" "10"
+		"xpos" "130"
+		"ypos" "r61"
+
+		"TextFont" "Default"
+		"ItemFont" "Default"
+		"ItemFontPulsing" "Default"
+	}
 
 	HudCloseCaption
 	{
 		"fieldName" "HudCloseCaption"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"c-250"
-		"ypos"		"276"	[$WIN32]
-		"ypos"		"236"	[$X360]
+		"xpos"		"c100"
+		"ypos"		"250"	[$WIN32]
 		"wide"		"500"
-		"tall"		"136"	[$WIN32]
-		"tall"		"176"	[$X360]
-
-		"BgAlpha"	"128"
+		"tall"		"150"	[$WIN32]
+		
+		"BgAlpha"	"0"
 
 		"GrowTime"		"0.25"
 		"ItemHiddenTime"	"0.2"  // Nearly same as grow time so that the item doesn't start to show until growth is finished
