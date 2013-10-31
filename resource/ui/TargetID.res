@@ -112,9 +112,8 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TargetDataLabel"
-		"font"			"Tex18"
-		"fgcolor_override" 	"AmmoReserve"
-		"xpos"			"42"
+		"font"			"Tex13"
+		"xpos"			"40"
 		"ypos"			"-1"	
 		"zpos"			"1"
 		"wide"			"160"
@@ -127,7 +126,7 @@
 		"textAlignment"		"west"
 		"dulltext"		"0"
 		"brighttext"		"0"
-		"fgcolor" 	"Ammo"
+		
 	}
 	"SpectatorGUIHealth"
 	{
