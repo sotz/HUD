@@ -5,7 +5,7 @@
 	{
 		"label" "Be Great, 
 Powerful beyond Measure" 
-		"command" "toggleconsole"
+		"command" "engine toggleconsole"
 		"subimage" ""
 		"OnlyAtMenu" "0"
 	}
