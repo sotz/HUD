@@ -15,8 +15,8 @@
 		"tabPosition"		"0"
 		"avatar_width"		"54"	[$WIN32]
 		"avatar_width"		"54"		[$X360]
-		"name_width"		"124"	[$WIN32]
-		"name_width"		"135"	[$X360]
+		"name_width"		"100"	[$WIN32]
+		"name_width"		"100"	[$X360]
 		"status_width"		"15"	[$WIN32]
 		"status_width"		"12"	[$X360]
 		"nemesis_width"		"15"	[$WIN32]

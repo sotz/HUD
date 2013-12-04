@@ -25,7 +25,7 @@
 		"ypos"			"35"
 		"zpos"			"-1"
 		"wide"			"50"
-		"tall"	 		"34"
+		"tall"	 		"35"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -112,12 +112,12 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TargetDataLabel"
-		"font"			"Tex13"
-		"xpos"			"40"
-		"ypos"			"-1"	
+		"font"			"Tex12"
+		"xpos"			"35"
+		"ypos"			"2"	
 		"zpos"			"1"
 		"wide"			"160"
-		"tall"			"20"
+		"tall"			"15"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -126,7 +126,6 @@
 		"textAlignment"		"west"
 		"dulltext"		"0"
 		"brighttext"		"0"
-		
 	}
 	"SpectatorGUIHealth"
 	{
@@ -149,11 +148,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"AmmoIcon"
-		"xpos"			"99999"
-		"ypos"			"99999"
+		"xpos"			"34"
+		"ypos"			"21"
 		"zpos"			"12"
-		"wide"			"12"
-		"tall"			"12"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/leaderboard_class_heavy"
@@ -257,5 +256,6 @@
 			"dulltext"		"0"
 			"brighttext"		"0"
 		}
-		
+
+	}
 }
