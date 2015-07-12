@@ -7,27 +7,21 @@
 		"xpos"			"c-260"
 		"ypos"			"31"
 		"wide"			"520"
-		"tall"			"448"
+		"tall"			"470"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"avatar_width"		"54"	[$WIN32]
-		"avatar_width"		"54"		[$X360]
-		"name_width"		"100"	[$WIN32]
-		"name_width"		"100"	[$X360]
-		"status_width"		"15"	[$WIN32]
-		"status_width"		"12"	[$X360]
-		"nemesis_width"		"15"	[$WIN32]
-		"nemesis_width"		"20"	[$X360]
-		"class_width"		"15"	[$WIN32]
-		"class_width"		"20"	[$X360]
+		"medal_width" 		"14"
+		"avatar_width"		"54"	
+		"name_width"		"76"	
+		"status_width"		"15"	
+		"nemesis_width"		"15"	
+		"class_width"		"15"	
 		"score_width"		"25"
-		"score_width_lodef"	"35"
-		"score_width_hidef"	"50"
-		"ping_width"		"23"	[$WIN32]
-		"ping_width"		"50"	[$X360]		// Larger to push the value off the edge
+		"ping_width"		"24"	
+
 	}
 	"BlueScoreBG"
 	{
@@ -409,7 +403,7 @@
 		"labelText"		"%server%"
 		"textAlignment"		"west"
 		"xpos"			"0"
-		"ypos"			"c180"
+		"ypos"			"c200"
 		"wide"			"520"
 		"tall"			"10"
 		"autoResize"	"0"
@@ -532,7 +526,7 @@
 		"labelText"		"%spectators%"
 		"textAlignment"		"west"
 		"xpos"			"0"
-		"ypos"			"c190"	[$WIN32]
+		"ypos"			"c210"	[$WIN32]
 		"zpos"			"4"
 		"wide"			"520"
 		"tall"			"10"
@@ -582,7 +576,7 @@
 		"ypos"			"c150"	[$WIN32]
 		"zpos"			"2"
 		"wide"			"520"
-		"tall"			"30"
+		"tall"			"50"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -889,7 +883,7 @@
 		"ypos"			"c150"
 		"zpos"			"3"
 		"wide"			"520"
-		"tall"			"30"
+		"tall"			"50"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -916,8 +910,8 @@
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"0"
-			"fgcolor"		"ColorLime"
-			"fgcolor_override"	"ColorLime"
+			"fgcolor"		"White"
+			"fgcolor_override"	"White"
 		}						
 		"DeathsLabel"
 		{
@@ -993,8 +987,8 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"ColorLime"
-			"fgcolor_override"	"ColorLime"
+			"fgcolor"		"White"
+			"fgcolor_override"	"White"
 		}						
 		"Deaths"
 		{
@@ -1013,8 +1007,8 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"ColorRuby"
-			"fgcolor_override"	"ColorRuby"
+			"fgcolor"		"White"
+			"fgcolor_override"	"White"
 		}
 		"kdDivider"
 		{
@@ -1023,8 +1017,9 @@
 			"labelText"		":"
 			"textAlignment"		"center"
 			"font"			"Tex32"
-			"fgcolor"		"white"
+			"fgcolor"		"White"
 			"fgcolor_override"	"White"
+			"xpos"			"211"
 			"xpos"			"211"
 			"ypos"			"0"
 			"wide"			"99"
@@ -1205,7 +1200,75 @@
 			"enabled"		"1"
 			"fgcolor"		"White"
 			"fgcolor_override"	"White"
-		}						
+		}		
+		"DamageLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"DamageLabel"
+			"font"			"Tex16"
+			"labelText"		"#TF_Scoreboard_Damage"
+			"textAlignment"	"west"
+			"xpos"			"150"
+			"ypos"			"27"	
+			"zpos"			"3"
+			"wide"			"95"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+		}
+		"Damage"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Damage"
+			"font"			"Tex16"
+			"labelText"		"%damage%"
+			"textAlignment"	"west"		
+			"xpos"			"210"	
+			"ypos"			"27"
+			"zpos"			"3"
+			"wide"			"35"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+		}
+		"SupportLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"SupportLabel"
+			"font"			"Tex10"
+			"labelText"		"#TF_Scoreboard_Support"
+			"textAlignment"	"west"
+			"xpos"			"16"	[$WIN32]
+			"ypos"			"30"	[$WIN32]
+			"zpos"			"3"
+			"wide"			"30"
+			"tall"			"15"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+		}
+		"Support"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Support"
+			"font"			"Tex12"
+			"labelText"		"%support%"
+			"textAlignment"	"west"		
+			"xpos"			"42"	
+			"ypos"			"30"	
+			"zpos"			"3"
+			"wide"			"30"
+			"tall"			"15"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+		}
 		"Defenses"
 		{
 			"ControlName"		"CExLabel"
